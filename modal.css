@@ -1,0 +1,55 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    margin-top: 30%;
+    margin-left: 42%;
+    background-image: url("pics.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+button {
+    position: auto;
+    width: 30%;
+    background-color: rgb(235, 30, 30);
+    color: rgb(185, 255, 54);
+    
+}
+
+.inner-modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.inner-modal-content {
+    background-color: rgb(255,255,255);
+    margin: 0% auto;
+    padding: 20px;
+    border: 1px solid rgb(125,125,125);
+    width: 30%;
+}
+
+.exit-close {
+    color: rgb(170,170,170);
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.exit-close:hover,.exit-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
